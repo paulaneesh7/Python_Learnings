@@ -1,0 +1,15 @@
+use-case : Famous California Housing Dataset
+It predicts house prices based on features.
+
+
+
+Features:
+
+- median_income
+- house_age
+- population
+- rooms
+
+Target:
+
+- house price (continuous number)

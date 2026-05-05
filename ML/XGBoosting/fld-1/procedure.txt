@@ -1,0 +1,10 @@
+⚙️ Full workflow (real ML pipeline)
+
+We’ll do:
+
+Load CSV
+Clean data
+Convert categorical → numeric
+Train XGBoost
+Evaluate
+Predict

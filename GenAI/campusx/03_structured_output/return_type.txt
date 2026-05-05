@@ -1,0 +1,6 @@
+
+with structured output :
+
+1) TypeDict -> returns a dictionary
+2) Pydantic -> returns an object
+3) Json Schema -> returns a dictionary

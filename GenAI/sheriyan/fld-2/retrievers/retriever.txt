@@ -1,0 +1,14 @@
+A retriever takes a user query and returns the most
+relevant documents or chunks from a database
+
+Now there are 2 types of retriever
+1. By data source (Wikipedia, Arxiv, PubMed etc..) -> check arxiv.py
+2. By retrieval strategy (Similarity, MRR, MultiQuery etc..)
+
+
+
+When we talk about retrievers using data sources, we mean retrievers that
+fetch informations from specific external sources or databases instead of your
+own vector store. These retrievers connect to APIs or datasets and returns
+relevant documents for the query.
+

@@ -1,0 +1,12 @@
+1. Load the document
+2. Split the text (based upon requirement and techniques)
+3. Create chunks of the document
+4. Create embeddings of those chunks
+5. Store those chunks in vector database (in proper format id, content, embedding)
+6. User asks a question
+7. Repeat step-2,3&4 for this query
+8. Perform similarity search with this embedding
+9. Then we use the "Retriever Component"
+(This retriever selects the top-k relevant chunks, these chunks form the contxt)
+
+10. LLM answers based on this provided context and actually asked user query

@@ -1,0 +1,6 @@
+
+
+1) Load the documents -> https://docs.langchain.com/oss/python/integrations/document_loaders
+2) Chunking -> https://docs.langchain.com/oss/python/integrations/splitters
+3) Vector embeddings -> https://docs.langchain.com/oss/python/integrations/embeddings/openai
+4) Langchain Quadrant DB (To store the vector embeddings into DB) -> https://docs.langchain.com/oss/python/integrations/vectorstores/qdrant

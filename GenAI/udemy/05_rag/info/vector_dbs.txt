@@ -1,0 +1,8 @@
+How many dbs are there to store vector embeddings
+
+1. Qdrant DB
+2. Chroma DB
+3. AWS OpenSearch
+4. Pinecode DB (Not open-source, its a hosted managed service)
+5. Weaviate DB
+6. Pg Vector

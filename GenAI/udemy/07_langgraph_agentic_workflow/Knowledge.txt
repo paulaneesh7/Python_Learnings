@@ -1,0 +1,16 @@
+Overview :
+
+1) Graph - Its basically the blueprint of the workflow and also how each function falls in place one after another.
+2) Nodes - These are basically the actual functions
+3) Edges - These are the connections between the nodes
+4) State - It is piece of data, when you run your graph, this state passed through the parameter.
+The nodes receiving this state updates it and then at the end returns the new state.
+
+So every node receives the state -> updates it -> returns the state with updated data
+
+
+Checkpoints - Checkpoints in LangGraph are saved snapshots of a graph's state (including variable values, node progress, and history) 
+at every super-step, enabling persistence, memory across sessions, and fault-tolerant execution. They allow developers to pause, resume, 
+or "time travel" through workflows, essentially enabling agents to remember previous interactions.
+
+Ref Link : https://docs.langchain.com/oss/python/langgraph/add-memory#example-using-mongodb-checkpointer
