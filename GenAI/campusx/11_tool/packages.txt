@@ -1,0 +1,7 @@
+!pip install -U \
+langchain \
+langchain-core \
+langchain-community \
+langchain-openai \
+langsmith \
+ddgs
