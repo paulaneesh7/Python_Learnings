@@ -10,6 +10,9 @@ from langsmith import traceable
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, START, END
 
+
+# LANGSMITH_PROJECT="Langsmith-Demo-05-LangGraph-UPSC-Workflow"
+
 # ---------- Setup ----------
 load_dotenv()
 model = ChatOpenAI(model="gpt-4o-mini", temperature=0)
@@ -133,3 +136,5 @@ if __name__ == "__main__":
     print("Overall feedback:\n", result.get("overall_feedback", ""), "\n")
     print("Individual scores:", result.get("individual_scores", []))
     print("Average score:", result.get("avg_score", 0.0))
+
+
