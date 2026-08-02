@@ -4,6 +4,7 @@
 
 def longest_string(words):
     l = 0
+    
     s = ""
     for word in words:
         if len(word) > l:
