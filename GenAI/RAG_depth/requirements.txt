@@ -139,6 +139,7 @@ narwhals==2.20.0
 nest-asyncio==1.6.0
 networkx==3.6.1
 nltk==3.10.0
+neo4j==6.2.0
 numba==0.64.0
 numpy==2.4.4
 oauthlib==3.3.1

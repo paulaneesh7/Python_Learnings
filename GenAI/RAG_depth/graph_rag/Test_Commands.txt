@@ -1,0 +1,22 @@
+Testing Commands
+
+1. List All Node Labels
+    CALL db.labels();
+
+2. List All Relationship Types
+    CALL db.relationshipTypes();
+
+3. View Sample Nodes
+    MATCH (n)
+    RETURN n
+    LIMIT 10;
+
+4. View Sample Relationships
+    MATCH (a)-[r]->(b)
+    RETURN a, r, b
+    LIMIT 20;
+
+5. View Sample Relationships
+    MATCH (n)-[r]-(m)
+    WHERE n.name CONTAINS "Azure"
+    RETURN n, r, m;
